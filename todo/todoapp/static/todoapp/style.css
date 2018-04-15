@@ -1,0 +1,11 @@
+body{
+	height: 98%;
+	width: 90%;
+	background: white url("back.jpg");
+	background-size:cover;
+}
+.bar{
+	height: 50px;
+	background:black;
+	width:1280px;
+}

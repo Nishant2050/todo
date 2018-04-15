@@ -1,0 +1,25 @@
+{% load staticfiles %}
+
+<html>
+	<head>
+		<link rel = "stylesheet" type="text/css" href="{% static 'todoapp/style.css'%}">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<nav class="bar">
+			<div class="container-fluid">
+				<div class="bar-header">
+					<a class="bar-brand" href="#">TodoApp</a>
+				</div>
+				<ul class="nav bar-nav">
+					<li class="active"><a href="#">Item 1_</a></li>
+					<li><a href="#">Item 2_</a></li>
+					<li><a href="#">Item 3_</a></li>
+				</ul>
+			</div>
+		</nav>
+		{% block body %}
+		{% endblock %}
+
+	</body>
+</html>
